@@ -1,0 +1,471 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &474320578172456447
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5960921031419636101}
+  - component: {fileID: 3194992486789303229}
+  - component: {fileID: 3652091043394642597}
+  - component: {fileID: 5441499579644051047}
+  m_Layer: 5
+  m_Name: Canvas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &5960921031419636101
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 474320578172456447}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 1027466014210285708}
+  m_Father: {fileID: 6498004163763234221}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
+--- !u!223 &3194992486789303229
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 474320578172456447}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!114 &3652091043394642597
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 474320578172456447}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 1
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
+--- !u!114 &5441499579644051047
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 474320578172456447}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!1 &6259893691491886353
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1027466014210285708}
+  - component: {fileID: 4710456677188464627}
+  - component: {fileID: 1271732262191289721}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1027466014210285708
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6259893691491886353}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5960921031419636101}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 20, y: -320}
+  m_SizeDelta: {x: 350, y: 1050}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &4710456677188464627
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6259893691491886353}
+  m_CullTransparentMesh: 1
+--- !u!114 &1271732262191289721
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6259893691491886353}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 18
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 1
+    m_MaxSize: 42
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 'Map instructions :
+
+    Different types of event nodes can be encountered
+    on the map.
+
+
+
+    Level nodes:
+
+
+
+    Challenge a level to gain Christmas Magic
+    points or even power-ups.
+
+
+
+    Resource node:
+
+
+
+    Gain a random amount of
+    Christmas Magic points.
+
+
+
+    Shop node:
+
+
+
+    Allows to exchange Christmas
+    Magic points for power-ups.
+
+
+
+    To choose a node, the player hits a number
+    key.
+
+'
+--- !u!1 &8790411133591703908
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6498004163763234221}
+  - component: {fileID: 9076309834167233823}
+  - component: {fileID: 6230559373715982432}
+  m_Layer: 0
+  m_Name: instructions
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6498004163763234221
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8790411133591703908}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.2, z: 0}
+  m_LocalScale: {x: 3.5, y: 3.5, z: 1}
+  m_Children:
+  - {fileID: 5960921031419636101}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &9076309834167233823
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8790411133591703908}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 2
+  m_Sprite: {fileID: 21300000, guid: 0da6000d03239544b829641586b55c16, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 3, y: 3}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!114 &6230559373715982432
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8790411133591703908}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9563f6e2827285438403fc9ebb5b2a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  instructionsPage: 0
+  instructions:
+  - 'Ho ho ho!
+
+    Santa Claus is coming to town!
+
+
+    "He''s making a list
+
+    And
+    checking it twice.
+
+    Gonna find out
+
+    Who''s naughty and nice.
+
+    Santa
+    Claus is comin'' to town."
+
+
+    Follow Santa''s journey as he rewards nice children
+    with gifts and naughty children with coal!
+
+    During the game, you will have
+    to choose between multiple paths before reaching the final level, where a highscore
+    mode will enable you to share your final score with others!
+
+
+    Use left and
+    right arrows to navigate in the instructions'
+  - 'Naughty and Nice is a roguelike shooter game where the player uses his mouse
+    to aim and throw gifts or coal at children, in order to collect Christmas Magic
+    points that can be exchanged for power-ups in elven shops. Power-ups will come
+    in handy in the final level in order to achieve a higher score.
+
+
+    The player
+    starts his journey at an initial node on the left of the map. At each step, he
+    can choose between multiple paths on the right with number keys. Each path will
+    lead to a different node corresponding to different events.
+
+
+    When the player
+    has reached the final node on the right, he will face the final level where his
+    final score is computed according to the score reached in that level.'
+  - 'Map instructions :
+
+    Different types of event nodes can be encountered on
+    the map.
+
+
+    Level nodes:
+
+
+    Challenge a level to gain Christmas Magic points
+    or even power-ups.
+
+
+    Resource node:
+
+
+    Gain a random amount of Christmas
+    Magic points.
+
+
+    Shop node:
+
+
+    Allows to exchange Christmas Magic points
+    for power-ups.
+
+
+    To choose a node, the player hits a number key.'
+  - 'Level instructions 1:
+
+    During a level, the player uses his mouse to aim
+    and throw gifts or coal at children.
+
+
+    At the beginning of each level, a
+    list containing the images of nice and naughty children will be shown. The list
+    can be consulted at any moment with the hotkey "L".
+
+
+    Coal must be thrown
+    at naughty kids and gifts be thrown at nice kids.
+
+
+    The amount of gifts that
+    can be thrown in each level is fixed, but the number of coal isn''t. Player alternate
+    between those objects with the "Spacebar" key.
+
+
+    Each gift give a some satisfaction
+    to children.The quantity of gift points needed to satisfy a children vary for
+    each level.'
+  - 'Level instructions 2:
+
+    A level finishes when all children received their
+    gift or coal, when all gifts are thrown or when the timer runs out.
+
+
+    Note
+    : take care of naughty children first! If all nice children are satisfied or
+    the gift quantity runs out, Santa will not stay in the level any longer and run
+    the the next location. Time is precious on Christmas night!
+
+
+    Highscore mode
+    :
+
+
+    The last level encountered. Children on screen will respawn as long as
+    the timer doesn''t run out and Santa has remaining gifts. The score reached in
+    that level is the final score of the game.'
+  - 'Santa''s stats:
+
+    Different stats affects Santa''s perfermance in a level.
+    Those stats can be upgraded at a shop node.
+
+
+    Gift power : the amount of
+    satisfaction a nice child receives for a gift, very important stat for higher
+    levels
+
+
+    Gift per level : the amount of gifts Santa brings in to each level,
+    the level ends when the quantity of gifts runs out
+
+
+    Ammunition : the maximum
+    quantity of gifts or coal that can exist on screen at once
+
+
+    Throw speed
+    : affects the time needed for a gift or coal to reach destination'
+  - 'General advices :
+
+    To avoid wasting gifts in a level, start with throwing
+    some coals to get a grisp of the time needed for a projectile to reach it''s
+    destination!
+
+
+    The content of a node is randomly generated and varies with
+    each gameplay. Do not hesitate to challenge the game many times in order to reacher
+    a higher final score!
+
+
+    Shop nodes offers random upgrades for each visit.
+    It''s sometimes necessary to visit many shops to get the wanted upgrade!
+
+
+    Have
+    fun!!
+
+
+    Press "I" to toggle the instructions page'
